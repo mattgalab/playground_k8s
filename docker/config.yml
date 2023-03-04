@@ -1,0 +1,10 @@
+route:
+  receiver: 'discord'
+
+receivers:
+  - name: 'discord'
+#       slack_configs:
+#           - send_resolved: true
+#             username: '<username>'
+#             channel: '#<channel-name>'
+#             api_url: '<incomming-webhook-url>'
