@@ -8,8 +8,8 @@ services:
     networks:
       - monitoring-net
     volumes:
-      - ${PWD}\prometheus.yml:/opt/bitnami/prometheus/conf/prometheus.yml
-      - ${PWD}\prometheus:/opt/bitnami/data
+      - c:\docker_persistence\prometheus.yml:/opt/bitnami/prometheus/conf/prometheus.yml
+      - c:\docker_persistence\prometheus:/opt/bitnami/data
   grafana:
     image: bitnami/grafana:latest
     ports:
@@ -33,14 +33,17 @@ services:
     networks:
       - monitoring-net
     volumes:
-      - ${PWD}:/mnt/config
+      - c:\docker_persistence:/mnt/config
     command: --config.file=/mnt/config/loki-config.yaml
 
   promtail:
     image: grafana/promtail:2.7.4
+    ports:
+      # debug dashboard http://localhost:9080/service-discovery
+      - 9080:9080
     volumes:
-      - ${PWD}\promtail-config.yaml:/mnt/config/promtail-config.yaml
-      - ${PWD}\promtail\log:/var/log
+      - c:\docker_persistence\promtail-config.yaml:/mnt/config/promtail-config.yaml
+      - c:\docker_persistence\promtail\log:/var/log
     networks:
       - monitoring-net
     command: --config.file=/mnt/config/promtail-config.yaml
