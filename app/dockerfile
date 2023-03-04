@@ -1,0 +1,5 @@
+FROM tomcat:9.0-jdk11-openjdk
+
+COPY myapp.jar /usr/local/tomcat/webapps/
+
+COPY myapp.xml /usr/local/tomcat/conf/Catalina/localhost/
