@@ -5,57 +5,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79b7a948-8fee-4207-8484-9fb22ca0d4e4" name="Changes" comment="added nginx helm chart">
-      <change afterPath="$PROJECT_DIR$/mariadb-11.4.6.tgz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/.helmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/Chart.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/Chart.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/.helmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/Chart.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/_affinities.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/_capabilities.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/_errors.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/_images.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/_ingress.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/_labels.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/_names.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/_secrets.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/_storage.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/_tplvalues.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/_utils.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/_warnings.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/validations/_cassandra.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/validations/_mariadb.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/validations/_mongodb.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/validations/_mysql.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/validations/_postgresql.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/validations/_redis.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/templates/validations/_validations.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/charts/common/values.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/NOTES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/_helpers.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/extra-list.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/networkpolicy-egress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/primary/configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/primary/initialization-configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/primary/networkpolicy-ingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/primary/pdb.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/primary/statefulset.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/primary/svc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/prometheusrules.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/role.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/rolebinding.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/secondary/configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/secondary/networkpolicy-ingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/secondary/pdb.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/secondary/statefulset.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/secondary/svc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/secrets.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/serviceaccount.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/templates/servicemonitor.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/values.schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mariadb/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployments/traefik/.helmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployments/traefik/Chart.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployments/traefik/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployments/traefik/charts/traefik-23.1.0.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployments/traefik/templates/NOTES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployments/traefik/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployments/traefik/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployments/traefik/templates/hpa.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployments/traefik/templates/ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployments/traefik/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployments/traefik/templates/tests/test-connection.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployments/traefik/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ip-adresses.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/.helmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/Changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/Chart.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/Guidelines.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/crds/ingressroute.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/crds/ingressroutetcp.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/crds/ingressrouteudp.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/crds/middlewares.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/crds/middlewarestcp.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/crds/serverstransports.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/crds/tlsoptions.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/crds/tlsstores.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/crds/traefikservices.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/_helpers.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/_podtemplate.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/_service-internal.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/_service-metrics.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/_service.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/daemonset.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/dashboard-ingressroute.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/extra-objects.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/gateway.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/gatewayclass.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/hpa.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/ingressclass.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/poddisruptionbudget.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/prometheusrules.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/pvc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/rbac/clusterrole.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/rbac/clusterrolebinding.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/rbac/podsecuritypolicy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/rbac/role.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/rbac/rolebinding.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/rbac/serviceaccount.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/traefik/templates/serviceaccount.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/service-hub.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/service-internal.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/service-metrics.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/servicemonitor.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/tlsoption.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/templates/tlsstore.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik/values.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +73,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="default" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,14 +88,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\programmieren\playground\playground_k8s" />
@@ -100,6 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676463894047</updated>
+      <workItem from="1687021991425" duration="2968000" />
     </task>
     <task id="LOCAL-00001" summary="playground helm charts">
       <created>1676466959736</created>
@@ -124,6 +145,9 @@
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
